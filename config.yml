@@ -1,0 +1,11 @@
+path:
+  IMAGE_PATH: "./data/raw/dataset.zip"
+  RAW_DATA_PATH: "./data/raw/"
+  PROCESSED_DATA_PATH: "./data/processed/"
+  FILES_PATH: "./research/files/"
+
+dataloader:
+  channels: 3
+  image_size: 64
+  batch_size: 8
+  split_size: 0.30
